@@ -1,0 +1,17 @@
+.rodape {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+padding: 2em 0 1em;
+background: var(--verde-degrade);
+}
+
+.rodape__img{
+  width: 8%;
+  border-radius: 20px;
+  margin-bottom: 0.5em;
+}
+
+.rodape__texto {
+    font-size: 10px;
+}

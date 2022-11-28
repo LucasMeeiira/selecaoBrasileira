@@ -1,0 +1,83 @@
+.conteiner__secundario{
+    background: var(--azul-degrade);
+    padding: 3em 0;
+}
+
+
+.conteiner__secundario-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4em 0;
+    
+}
+
+.conteiner__secundario-convocados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+      
+}
+
+
+
+.conteiner__secundario-bandeira{
+    width: 80px;
+    border-radius: 10px;  
+    box-shadow: 1px 3px 3px var(--verde-claro);
+}
+
+
+.conteiner__secundario-texto{  
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    color:var(--verde-claro);
+    border-bottom: 2px solid var(--amarelo); 
+}
+
+
+.conteiner__reservas {
+    display: flex;
+    gap: 15vh;
+    justify-content: center;
+    
+    padding: 1em 0 5em 0 ;
+}
+
+
+
+.card__reserva{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+   width: 25vh;
+   height: 28vh;
+
+   background:var(--verde-amarelo);
+   border-radius: 10px;
+}
+
+
+
+.jogador__resarva {
+    max-width: 18vh;
+    height: 18vh;
+
+    border-radius: 15px;
+    margin: 15px 0 8px 0 ;
+
+    box-shadow: 0px 2px 2px var(--verde-claro)
+}
+
+
+
+.reservas {
+    color: var(--preto);
+    font-size: var(--size-padrao);
+    font-weight:500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

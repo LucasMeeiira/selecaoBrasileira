@@ -1,0 +1,45 @@
+@import url("/styles/titulares.css");
+@import url("/styles/reservas.css");
+@import url("/styles/grupo.css");
+@import url("styles/rodape.css");
+
+:root{
+    --amerelo-azul: linear-gradient(rgb(255,215,0), rgb(70,130,180));
+    
+    --verde-amarelo:linear-gradient(rgb(255,215,0), rgb(0,128,128));
+
+   --verde-degrade:linear-gradient( rgb(0,128,128), rgb(255,215,0));
+   
+    --amerelo-preto:linear-gradient(rgba(0,0,0,0.8) , rgb(255,215,0), rgba(0,0,0,0.8));
+
+    --azul-degrade:linear-gradient(rgb(12, 45, 71), rgb(170, 147, 17), rgb(12, 45, 71)); 
+   
+    --preto-degrade:linear-gradient( rgb(145, 145, 145), rgb(0, 0, 0));
+
+
+    --verde-claro:#66CDAA;
+    --preto:#000000;
+    --amarelo:#FFD700;
+    --cinza-escuro:#363636;
+    --font-padrao: font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --size-padrao: font-size:16px;
+    --branco: #e4e4e4;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-padrao);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+
+
+.conteiner {
+    display: flex;
+    gap: 25vh;
+    justify-content: center;
+    padding: 10px 0 100px 0 ;
+    background:url("/img/gramado.jpg");
+}
+
+.conteiner__goleiro{
+    display: flex;
+    justify-content: flex-end;
+    background:url("/img/gramado.jpg");
+    gap: 55vh;
+
+    padding: 10px 40px 20px 0 ;
+    
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+   width: 25vh;
+   height: 35vh;
+
+   background:var(--amerelo-azul);
+   border-radius: 10px;
+}
+
+.jogador {
+    
+    max-width: 20vh;
+    height: 25vh;
+
+    border-radius: 15px;
+    margin: 15px 0 8px 0 ;
+
+    box-shadow: 0px 2px 2px var(--verde-claro);
+
+}
+
+
+.identificacao {
+    color: var(--amarelo); 
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 3px;     
+}
+
